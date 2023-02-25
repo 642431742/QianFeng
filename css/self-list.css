@@ -1,0 +1,27 @@
+.self-list{
+    position: absolute;
+    z-index: 100;
+    width: 120px;
+    text-align: center;
+    background-color: #fff;
+    top: 40px;
+    right: 0;
+    color: #666;
+    box-shadow: 0 1px 4px 1px rgb(0 0 0 / 16%);
+    display: none;
+}
+.header .self:hover .self-list{
+    display: block;
+}
+.self-list li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.self-list li:hover{
+    background-color: rgba(0, 195, 195, 0.067);
+    color: #2890ff;
+}
+.self-list .self-leave{
+    border-top: 1px solid #e1e1e1;
+}

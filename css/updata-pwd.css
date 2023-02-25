@@ -1,0 +1,42 @@
+.updata-pwd h1{
+    font-size: 18px;
+    font-weight: normal;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 2px solid #e1e1e1;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 16%);
+}
+.updata-pwd h1 p{
+    margin-right: 10px;
+}
+.updata-pwd form{
+    background-color: #fff;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 35px;
+}
+.updata-pwd form button{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(174, 174, 173);
+    margin-left: 125px;
+}
+.updata-pwd form label{
+    height:50px;
+    line-height: 50px;
+}
+.updata-pwd form label input{
+    width: 285px;
+    height: 35px;
+}
+.updata-pwd form label select{
+    width: 80px;
+    height: 28px;
+}
